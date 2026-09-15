@@ -37,3 +37,8 @@ body{
     font-size: 6rem;
     color: white;
  }
+ .about-me-content-holder{
+   display: grid;
+   gap: 5px;
+   line-height: 1.5;
+ }

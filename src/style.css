@@ -8,11 +8,12 @@ img{
     width: 100%;
 }
 body{
-    min-width: 320px;
+   display: grid;
+   justify-content: center;
 }
-/* .first-potrait-img{
-    background-size: cover;
-} */
+.main-wrapper{
+   width: 320px;
+}
  main{
     padding: 20px;
  }

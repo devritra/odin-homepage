@@ -19,8 +19,14 @@ body{
  .about-me-content-holder h1{
     text-align: center;
  }
+ .potrait-and-content-container{
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+ }
  .potrait-and-name-holder{
     position: relative;
+    width: 280px;
  }
  .potrait-and-name-holder p{
     position: absolute;

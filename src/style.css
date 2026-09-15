@@ -20,6 +20,9 @@ body{
  .about-me-content-holder h1{
     text-align: center;
  }
+ .about-me-content-holder p{
+    text-wrap: wrap;
+ }
  .potrait-and-content-container{
     display: grid;
     justify-items: center;
@@ -51,4 +54,36 @@ body{
    display: flex;
    justify-content: center;
    gap: 10px;
+ }
+ .potrait-holder{
+      height: 100%;
+      width: 100%;
+   }
+ @media (min-width: 800px){
+   .potrait-and-content-container{
+      display: block;
+   }
+   .potrait-and-name-holder{
+      float: left;
+      margin: 0 10px 0 0;
+      width: 333px;
+      /* height: 170px; */
+      transform-origin: right bottom;
+      transform:scale(1.2,1.2);
+   }
+   .main-wrapper{
+      width: 700px;
+   }
+   .about-me-section{
+      padding-top: 50px;
+   }
+   main{
+      margin: 80px 50px;
+   }
+   .about-me-content-holder{
+      display: block;
+   }
+   .about-me-section .icon-holder{
+      justify-content: end;
+   }
  }

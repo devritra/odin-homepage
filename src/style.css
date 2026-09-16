@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black;
 }
 img{
     height: 100%;
@@ -59,20 +60,20 @@ body{
       height: 100%;
       width: 100%;
    }
- @media (min-width: 800px){
+ @media (min-width: 641px){
    .potrait-and-content-container{
       display: block;
    }
    .potrait-and-name-holder{
       float: left;
       margin: 0 10px 0 0;
-      width: 333px;
+      width: 300px;
       /* height: 170px; */
       transform-origin: right bottom;
       transform:scale(1.2,1.2);
    }
    .main-wrapper{
-      width: 700px;
+      width: 620px;
    }
    .about-me-section{
       padding-top: 50px;

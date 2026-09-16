@@ -1,6 +1,6 @@
 import './style.css';
 import firstPotraitTall from './assets/images/firstCatTall.png';
-import firstPotraitWide from './assets/images/firstCatWide.png';
+import firstPotraitWide from './assets/images/firstCatWide.jpg';
 
 const firstPotraitHolder = document.querySelector('.potrait-holder');
 const pictureElement = document.createElement('picture');

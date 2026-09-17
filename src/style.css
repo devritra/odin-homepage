@@ -13,123 +13,26 @@ body{
    justify-content: center;
 }
 .main-wrapper{
-   width: 320px;
+   max-width: 320px;
 }
  main{
     padding: 20px;
  }
- .about-me-content-holder h1{
-    text-align: center;
- }
- .about-me-content-holder p{
-    text-wrap: wrap;
- }
- .potrait-and-content-container{
-    display: grid;
-    justify-items: center;
-    gap: 20px;
- }
- .potrait-and-name-holder{
-    position: relative;
-    width: 280px;
- }
- .potrait-and-name-holder p{
-    position: absolute;
-    text-align: left;
-    bottom: 0;
-    padding-left: 10px;
-    font-size: 6rem;
-    color: white;
- }
- .about-me-content-holder{
+ .about-me-section{
    display: grid;
-   gap: 5px;
-   line-height: 1.5;
+   position: relative;
  }
- .about-me-section .icon-holder svg{
-   width: 20px;
-   height: 20px;
+ .name{
+   position: absolute;
+   font-size: 5rem;
+   top: 205px;
+   padding-left: 10px;
+   color: white;
+   text-shadow: 0 1px black;
  }
- .about-me-section .icon-holder{
-   margin-top: 10px;
-   display: flex;
-   justify-content: center;
-   gap: 10px;
- }
- .potrait-holder{
-      height: 100%;
-      width: 100%;
-   }
  @media (min-width: 641px){
-   .potrait-and-content-container{
-      display: block;
-   }
-   .potrait-and-name-holder{
-      float: left;
-      margin: 0 40px 0 0;
-      width: 220px;
-      /* height: 170px; */
-      transform-origin: 75% 100%;
-      transform:scale(1.35,1.35);
-   }
-   .main-wrapper{
-      width: 620px;
-   }
-   .about-me-section{
-      padding: 50px 20px 20px 20px;
-   }
-   main{
-      margin: 80px 50px;
-   }
-   .about-me-content-holder{
-      display: block;
-   }
-   .about-me-section .icon-holder{
-      justify-content: end;
-   }
-   .potrait-and-name-holder p{
-      font-size: 2rem;
-      top: 0;
-      left: 180px;
-      color: white;
-      width: 100%;
-      text-shadow: 0 0.5px 2px black;
-   }
+   
  }
   @media (min-width: 1008px){
-   .potrait-and-content-container{
-      display: block;
-   }
-   .potrait-and-name-holder{
-      float: left;
-      margin: 0 90px 0 0;
-      height: 100%;
-      transform-origin: left;
-      /* transform: translateY(20px); */
-      transform:scale(1.2,1.2);
-      /* transform: none; */
-   }
-   .main-wrapper{
-      width: 1004px;
-   }
-   .about-me-section{
-      padding-top: 25px;
-   }
-   main{
-      margin: 80px 50px;
-   }
-   .about-me-content-holder{
-      display: block;
-   }
-   .about-me-section .icon-holder{
-      justify-content: end;
-   }
-   .potrait-and-name-holder p{
-      font-size: 2rem;
-      width: 100%;
-      text-align: center;
-      padding: 0;
-      top: 80%;
-      left: 0;
-   }
+   
  }

@@ -145,6 +145,9 @@ img{
       height: 400px;
       transform: skewY(-15deg);
    }
+   .project-wrapper{
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   }
  }
   @media (min-width: 1008px){
    .diagonal-decor{
@@ -163,6 +166,13 @@ img{
    .about-me-section h1{
       padding: 20px 0 10px 0;
       text-align: start;
+   }
+   .my-work-section h2{
+      margin-top: 150px;
+      text-align: start;
+   }
+   .icon-holder{
+      margin-top: 50px;
    }
 
  }

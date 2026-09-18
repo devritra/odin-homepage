@@ -53,13 +53,53 @@ body{
  .diagonal-decor{
    height: 300px;
    width: 100%;
-   background-color: aqua;
+   background-color: rgb(99, 46, 0);
    transform-origin: left top;
-   transform: skewY(-20deg);
+   transform: skewY(-15deg);
    position: absolute;
+   z-index: -1;
  }
  @media (min-width: 641px){
-   
+   .main-wrapper{
+      max-width: none;
+      width: 641px;
+   }
+   .about-me-section{
+      display: block;
+      background-color: white;
+      box-shadow: 0 0 5px 1px #b8b8b8;
+      padding: 0 20px 20px 20px;
+   }
+   .about-me-section h1{
+      margin: 0;
+      padding: 50px 0 10px 0;
+   }
+   .potrait-holder{
+      float: left;
+      width: 210px;
+      margin-right: 10px;
+      transform-origin: 110% 100%;
+      transform: scale(1.18, 1.18);
+   }
+   main{
+      padding: 90px 60px 0 60px;
+   }
+   .icon-holder{
+      justify-content: end;
+   }
+   .name{
+      position: absolute;
+      top: 7%;
+      transform: translateX(185px);
+      font-size: 2.3rem;
+      padding-left: 0;
+      color: white;
+      text-shadow: 0 1px black;
+      line-height: 0;
+   }
+   .diagonal-decor{
+      height: 400px;
+   }
  }
   @media (min-width: 1008px){
    

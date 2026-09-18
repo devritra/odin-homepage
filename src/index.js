@@ -7,6 +7,7 @@ import thirdProjectImg from './assets/images/ticTacToe.png';
 import fourthProjectImg from './assets/images/adminDashboard.png';
 import fivthProjectImg from './assets/images/library.png';
 import sixthProjectImg from './assets/images/signUpForm.png';
+import contactImg from './assets/images/contactImg.png';
 
 const firstPotraitHolder = document.querySelector('.potrait-holder');
 const pictureElement = document.createElement('picture');
@@ -48,3 +49,8 @@ const six = document.querySelector('.six');
 const sixImg = new Image();
 sixImg.src = sixthProjectImg;
 six.appendChild(sixImg);
+
+const contactImgHolder = document.querySelector('.contact-img-holder');
+const contactImage = new Image();
+contactImage.src = contactImg;
+contactImgHolder.appendChild(contactImage);

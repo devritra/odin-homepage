@@ -103,6 +103,34 @@ img{
  .icons svg{
    width: 1.2rem;
  }
+ .contact-info{
+   display: grid;
+   background-color: rgb(99, 46, 0);
+   color: white;
+   padding: 15px 15px 50px 15px;
+ }
+ .contact-info h2{
+   margin: 15px 0 10px 0;
+   text-align: center;
+ }
+ .contact-info h2+p{
+   margin-bottom: 20px;
+ }
+ .contact-info p:nth-child(4){
+   margin-bottom: 20px;
+ }
+ .contact-info p:nth-child(5){
+   margin-bottom: 5px;
+ }
+ .contact-icons{
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   margin-top: 20px;
+ }
+ .contact-icons svg{
+   width: 2.2rem;
+ }
 
  @media (min-width: 641px){
    .main-wrapper{

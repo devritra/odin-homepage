@@ -55,7 +55,7 @@ body{
    width: 100%;
    background-color: rgb(99, 46, 0);
    transform-origin: left top;
-   transform: skewY(-15deg);
+   transform: skewY(-20deg);
    position: absolute;
    z-index: -1;
  }
@@ -99,6 +99,7 @@ body{
    }
    .diagonal-decor{
       height: 400px;
+      transform: skewY(-15deg);
    }
  }
   @media (min-width: 1008px){

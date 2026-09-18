@@ -8,6 +8,7 @@ import fourthProjectImg from './assets/images/adminDashboard.png';
 import fivthProjectImg from './assets/images/library.png';
 import sixthProjectImg from './assets/images/signUpForm.png';
 import contactImg from './assets/images/contactImg.png';
+import contactImgWide from './assets/images/joris-beugels-YpFO8rUadAs-unsplash.jpg';
 
 const firstPotraitHolder = document.querySelector('.potrait-holder');
 const pictureElement = document.createElement('picture');
@@ -51,6 +52,12 @@ sixImg.src = sixthProjectImg;
 six.appendChild(sixImg);
 
 const contactImgHolder = document.querySelector('.contact-img-holder');
+const pictureElementContact = document.createElement('picture');
+const wideCat = document.createElement('source');
+wideCat.srcset = contactImgWide;
+wideCat.media = '(min-width: 1008px)';
+pictureElementContact.appendChild(wideCat);
 const contactImage = new Image();
 contactImage.src = contactImg;
-contactImgHolder.appendChild(contactImage);
+pictureElementContact.appendChild(contactImage);
+contactImgHolder.appendChild(pictureElementContact);

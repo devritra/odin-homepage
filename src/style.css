@@ -54,6 +54,56 @@ img{
    position: absolute;
    z-index: -1;
  }
+ .my-work-section h2{
+   text-align: center;
+   margin: 60px 0 20px 0;
+ }
+ .project-card{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-template-rows: 170px 25px 80px;
+   align-items: start;
+   box-shadow: 0px 1px 2px 1px rgb(156, 156, 156);
+   gap: 5px;
+ }
+ .project-img-holder{
+   grid-column: 1/3;
+   grid-row: 1/2;
+   height: 100%;
+   width: 100%;
+ }
+ .project-name{
+   grid-column: 1;
+   grid-row: 2/3;
+   padding-left: 20px;
+ }
+ .icons{
+   grid-column: 2/3;
+   grid-row: 2/3;
+   padding-right: 20px;
+ }
+ .project-desc{
+   grid-column: 1/3;
+   grid-row: 3/4;
+   padding: 0 20px;
+ }
+ .project-img-holder img{
+   object-fit: cover;
+ }
+ .project-wrapper{
+   display: grid;
+   gap: 50px;
+ }
+ .icons{
+   display: flex;
+   justify-content: end;
+   gap: 10px;
+   align-items: center;
+ }
+ .icons svg{
+   width: 1.2rem;
+ }
+
  @media (min-width: 641px){
    .main-wrapper{
       max-width: none;

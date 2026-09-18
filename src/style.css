@@ -13,7 +13,7 @@ body{
    justify-content: center;
 }
 .main-wrapper{
-   max-width: 320px;
+   /* max-width: 320px; */
    position: relative;
 }
  main{
@@ -62,7 +62,7 @@ body{
  @media (min-width: 641px){
    .main-wrapper{
       max-width: none;
-      width: 641px;
+      /* width: 641px; */
    }
    .about-me-section{
       display: block;

@@ -20,12 +20,14 @@ body{
  }
  .about-me-section{
    display: grid;
+ }
+ .potrait-holder{
    position: relative;
  }
  .name{
    position: absolute;
+   top: 59%;
    font-size: 5rem;
-   top: 205px;
    padding-left: 10px;
    color: white;
    text-shadow: 0 1px black;

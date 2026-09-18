@@ -176,6 +176,30 @@ img{
    .project-wrapper{
       grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
    }
+   .contact-section{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 50px 60px;
+      background-color: rgb(99, 46, 0);
+      gap: 20px;
+      max-height: 400px;
+      justify-items: center;
+      margin-top: 200px;
+   }
+   .contact-info{
+      padding: 0;
+      align-items: center;
+   }
+   .contact-info h2{
+      text-align: start;
+   }
+   .contact-section img{
+      object-fit: cover;
+   }
+   .contact-img-holder{
+      max-height: 300px;
+      max-width: 250px;
+   }
  }
   @media (min-width: 1008px){
    .diagonal-decor{
